@@ -1,0 +1,82 @@
+.img{
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+}
+
+h3{
+    text-align: center;
+    margin-top: 5rem;
+           background: -webkit-linear-gradient(#2397c6, #64e1e8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+p
+{
+    text-align: center;
+    margin-top: 1rem;
+ 
+    margin-bottom: 2rem;
+    font-size: 110%;
+}
+
+.card{
+    width: auto;
+
+}
+
+//testimonials
+
+div.box
+{
+    text-align: center;
+
+border: 1px solid #2397c6;
+color: white;
+margin-bottom: 1rem;
+margin-right: 4rem;
+margin-left: 4rem;
+background-color: #2397c6;
+border-radius: 7px;
+}
+
+.container {
+    text-align: left;
+    display: flex;
+    color: white;
+    margin-top: 3em;
+    margin-bottom: 4em;
+
+  }
+
+  mat-panel-title
+  {
+    font-weight: bold;
+     background: -webkit-linear-gradient(#2397c6, #64e1e8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+    font-size: 125%;
+  }
+  ::ng-deep .mat-expansion-panel-header .mat-panel-title {
+    color: blue;
+    background-color: rgb(238, 24, 24);
+    font-size: 140%;
+  }
+  ::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label-active {
+    color: blue;
+    background-color: rgb(174, 174, 174);
+    font-size: 140%;
+  }
+
+  mat-expansion-panel {
+    background-color: rgb(252, 248, 255);
+    box-shadow: 10px 10px lightblue;
+  }
+
+  mat-expansion-panel-header
+{
+    box-shadow: 2px 2px 5px red;
+}
